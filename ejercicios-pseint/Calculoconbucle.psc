@@ -4,11 +4,10 @@ Algoritmo Calculoconbucle
 	i = 0 //La letra i sera el contador de vueltas
 	suma = 0
 	Escribir "Escribe numeros"
-	Repetir
+	Para i<-0 Hasta 9 Con Paso +1 Hacer
 		Leer num
 		suma = num + suma
-		i = i + 1
-	Hasta Que i=10
+	Fin Para
 	Escribir "La suma total de los 10 numeros ha sido " suma
-	
 FinAlgoritmo
+
